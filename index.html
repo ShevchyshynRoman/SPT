@@ -1,0 +1,383 @@
+﻿
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <title>Ольга Викторовна - консультирую бесплатно</title>
+    <link rel="shortcut icon" href="images/empty.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+    <link media="all" href="css/styles_1.css" type="text/css" rel="stylesheet">
+    <link media="all" href="css/spinnerCSS.css" type="text/css" rel="stylesheet">
+
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+
+
+</head>
+
+<body class="add-scroll">
+
+    <div class="main-desc b-show">
+        <div class="main-desc__img"> </div>
+        <div class="main-desc__body">
+        </div>
+    </div>
+    <div class="body" style="transform: translateY(0px);">
+        <div class="about dec">
+            <div class="about__avatar">
+                <img src="images/vrach.png" alt="">
+            </div>
+            <div class="about__name">
+                <p>Ольга Викторовна</p>
+            </div>
+            <div class="about__info">
+                <ul>
+                    <li>
+                        <p>Ведущий кардиолог Украины</p>
+                    </li>
+                    <li>
+                        <p>Врач высшей категории </p>
+                    </li>
+                    <li>
+                        <p>Кандидат медицинских наук</p>
+                    </li>
+                    <li>
+                        <p>Стаж работы 18 лет</p>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="header">
+                <div class="header__body">
+                    <div class="header__name">
+                        <div class="header__avatar">
+                            <img src="images/vrach.png" alt="" style="border-radius: 50%;">
+                        </div>
+                        <div class="header__desc">
+                            <p><span>Ольга Викторовна</span></p>
+                            <p>Бесплатная консультация</p>
+                        </div>
+                    </div>
+                    <div class="header__online">
+                        <p>Онлайн</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chat">
+                <div class="chat__time">
+                    <p>сегодня</p>
+                </div>
+                <div class="chat-content-list">
+
+                </div>
+                <button type="button" id="scroll_id" class="btn scroll-me aba" data-scroll="#down-box">
+                    <span class="container-circle">
+                        <span class="button-circle down"></span>
+                    </span>
+                    <input type="text" class="inp" id="res" value="0" readonly="">
+                </button> <!-- /scroll -->
+
+                //
+
+                <div id="form" class="iframe-form">
+                    <div class="spinner_wrapper" id="order_anchor">
+                        <div class="wrappers__box">
+                            <div class="wrapper_F">
+                                <div class="content">
+
+                                    <div class="left_block">
+                                        <div class="lb_top">
+                                            <div class="lbt_text_1 lt37">Испытай удачу!
+                                                Нажми на колесо! Попробуй получить скидку на <a href="#fp">Диафон</a> и забрать его за <span class="new_price_val"></span> <span class="new_price_sig"></span> </div>
+                                            <div class="lbt_text_2 lt38">Эта акция происходит с
+
+                                                <script type="text/javascript">
+                                                    p = new Date(d.getTime() - 3 * 86400000);
+                                                    var monthA = p.getMonth() + 1;
+                                                    if (monthA < 10) monthA = '0' + monthA;
+                                                    var  day = p.getDate();
+                                                    if (day < 10) day = '0' + day;
+                                                    document.write(day + '.' + monthA + '.' + p.getFullYear());
+                                                </script>
+
+                                                до
+                                                <script type="text/javascript">
+                                                    p = new Date(d.getTime() - 0 * 86400000);
+                                                    var monthA = p.getMonth() + 1;
+                                                    if (monthA < 10) monthA = '0' + monthA;
+                                                    var  day = p.getDate();
+                                                    if (day < 10) day = '0' + day;
+                                                    document.write(day + '.' + monthA + '.' + p.getFullYear());
+                                                </script>
+                                            </div>
+                                        </div>
+                                        <div class="lb_text lt39">Они уже выиграли скидку, <span> сможете и Вы тоже!</span></div>
+                                        <div class="wins">
+                                            <div class="win_line">
+                                                <div class="lt40">Имя</div>
+                                                <div class="lt41">Скидка</div>
+                                            </div>
+                                            <div class="win_line">
+                                                <div class="lt42">Алексей Дегтярев</div>
+                                                <div class="lt43">Выиграл скидку в 40%</div>
+                                            </div>
+                                            <div class="win_line">
+                                                <div class="lt44">Иван Пантелеев</div>
+                                                <div class="lt45">Выиграл скидку в 95%</div>
+                                            </div>
+                                            <div class="win_line">
+                                                <div class="lt46">Людмила Коваленко</div>
+                                                <div class="lt47">Выиграла скидку в 30%</div>
+                                            </div>
+                                            <div class="win_line" id="frm">
+                                                <div class="lt48">Анна Яшина</div>
+                                                <div class="lt49">Выиграла скидку в 65%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="spin-wrapper">
+                                        <div class="wheel-wrapper">
+                                            <div class="wheel">
+                                                <img alt="" class="wheelcursor" src="images/wheel-cursor.png"><img alt="" class="wheel-img" src="images/prizewheel.png">
+                                                <div class="wheel-cursor">
+                                                    <span class="cursor-text lt50" onclick="spin();">СПИН</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cl"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrapper__froms">
+                            <div class="wrapper_2">
+                                <div class="w2_content">
+                                    <form class="w2_right" action="/order/cpa/" method="post" id="order-form">
+                                        <div class="w2_head lt51">Официальная регистрационная форма<span>№29 982 из 30 000 до <script type="text/javascript">
+                                      var appendNull = function (num) {
+                                          return num < 10 ? 0 + num.toString() : num;
+                                      };
+                                      var p = new Date(new Date().getTime() - 0 * 86400000);
+                                      monthb = '01,02,03,04,05,06,07,08,09,10,11,12'.split(',');
+                                      document.write(appendNull(p.getDate()) + '.' + monthb[p.getMonth()] + '.' + p.getFullYear());
+                                    </script></span></div>
+                                        <div class="w2r_text lt52" id="wrp2">Чтобы получить Диафон, введите ваше имя и номер телефона ниже <br>
+                                            <div style="margin-top: 10px;">
+                                                <span style="color: red; font-size: 30px; margin-top: 10px;" class="new_price_val"></span> <span style=" font-size: 20px; margin-top: 10px;" class="new_price_cur"></span>
+                                            </div>
+                                        </div>
+                                        <input class="w2f_input" name="name" placeholder="Ваше имя" required="required" type="text" autocomplete="name">
+                                        <input class="w2f_input" id="phone"  name="phone" placeholder="Ваш номер телефона" required="required" type="tel">
+                                        <div class="w2f_submit">
+                                            <button type="submit">Получить бесплатно</button>
+                                        </div>
+
+                                    </form>
+                                    <div class="cl"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fireworks">
+                            <div class="spin-result-wrapper">
+                                <div class="pop-up-window">
+                                    <div class="close-popup"></div><span class="pop-up-heading lt161">Поздравляю!</span><br><br>
+                                    <p class="ruletka-p pop-up-text lt162">Вы можете забрать Диафон <br>бесплатно! <br>
+                                        <span class="pop-up-button lt163">OK</span>
+                                    </p></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- form -->
+                </div>
+                <div id="reviews" class="reviews hide">
+                    <div class="box__title">
+                        <h2 class="reviews-title">Комментарии</h2>
+                    </div>
+                    <div class="comment-item comment-item-show">
+                        <div class="comment-text">
+                            <div class="comment-top">
+                                <img class="comment-image" src="images/11_00100-738-arb.jpg" alt="">
+                                <div class="comment-name">Алена Лейдарова</div>
+                                <span class="rcity"></span>
+                            </div>
+                            <div class="comment-bottom">
+                                Я много лет страдала гипертонией, доходило до потери сознания, на работе уже даже привыкли. Чуть изменения погоды - скачет давление, поволновалась - все, сразу без сил. Ночью настигала тахикардия. Врачи постоянно пугали возможностью инсульта, ведь сосуды не выдерживают таких колебаний. Было очень страшно, ведь от инсульта погиб мой муж. Про капсулы узнала случайно, наткнулась на упоминание в статье и решила попробовать. Уже несколько месяцев, как забыла о слабости и прыжках давления. Чувствую себя бодрой и как будто даже помолодевшей. Я всем рекомендую!<br> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-item comment-item-show">
+                        <div class="comment-text">
+                            <div class="comment-top">
+                                <img class="comment-image" src="images/14_00100-140-arb.jpg" alt="">
+                                <div class="comment-name">
+                                    Галина Федорова
+                                </div>
+                                <span class="rcity"></span>
+                            </div>
+                            <div class="comment-bottom">
+                                Нам на лекции в меде недавно про них рассказывал препод. Вроде как открыли комбинацию природных веществ которые взаимно усиливают друг друга и укрепляют стенки сосудов. Интересно было послушать.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-item comment-item-show">
+                        <div class="comment-text">
+                            <div class="comment-top">
+                                <img class="comment-image" src="images/12_00100-aac-arb.jpg" alt="">
+                                <div class="comment-name">
+                                    Светлана Рогозина
+                                </div>
+                                <span class="rcity"></span>
+                            </div>
+                            <div class="comment-bottom">
+                                Я каждое утро пью капсулы GiperoPlus! Открыла их для себя месяц назад. Действительно значительно лучше стало, раньше боялась в метро сознание потерять, давление падало((<br>
+                            </div>
+                        </div>
+                    </div> <button class="glow-button">Показати ще</button>
+                    <div class="comment-item" id="four-com">
+                        <div class="comment-text">
+                            <div class="comment-top">
+                                <img class="comment-image" src="images/2-921-arb.jpg" alt="">
+                                <div class="comment-name">
+                                    Марина Августеева
+                                </div>
+                                <span class="rcity"></span>
+                            </div>
+                            <div class="comment-bottom">
+                                Заказала себе, вчера забрала на почте. Я не верила, но правда бесплатно прислали все!! Вечером выпила – как-то легче стало, прошел шум в голове. Продолжаю прием...</div>
+                        </div>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment-text">
+                            <div class="comment-top">
+                                <img class="comment-image" src="images/koomm34.jpg" alt="">
+                                <div class="comment-name">
+                                    Мая Порнева
+                                </div>
+                                <span class="rcity"></span>
+                            </div>
+                            <div class="comment-bottom">
+                                Я второй раз заказываю капсулы GiperoPlus себе и родителям. Очень хороший препарат! Мучили мигрени и часто были ситуации когда темнело в глазах, вплоть до потери сознания. С этими капсулами все прошло, рекомендую!<br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment-text">
+                            <div class="comment-top">
+                                <img class="comment-image" src="images/25-efd-arb.jpg" alt="">
+                                <div class="comment-name">
+                                    Наталья Ящишина
+                                </div>
+                                <span class="rcity"></span>
+                            </div>
+                            <div class="comment-bottom">
+                                Я давно читала про капсулы GiperoPlus, очень много хороших отзывов. Говорят, для восстановления после инсультов-инфарктов вообще незаменимая штука. Заказала родителям по акции, уж лучше профилактика!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment-text">
+                            <div class="comment-top">
+                                <img class="comment-image" style="border-radius: 50%" src="images/komm36.jpg" alt="">
+                                <div class="comment-name">
+                                    Елена Кочеткова
+                                </div>
+                            </div>
+                            <div class="comment-bottom">
+                                Заказала маме, курьер позвонил, завтра приедет. Напишу позже как впечатления
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment-text">
+                            <div class="comment-top">
+                                <img class="comment-image" src="images/4-292-arb.jpg" alt="">
+                                <div class="comment-name">
+                                    Нина Коваль
+                                </div>
+                                <span class="rcity"></span>
+                            </div>
+                            <div class="comment-bottom">
+                                Мои родители в санатории отдыхали, им профилактически те капсулы давали. Мама прям рада, что их теперь заказать можно. Говорит с ними жить легче!
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment-text">
+                            <div class="comment-top">
+                                <img class="comment-image" src="images/10-42e-arb.jpg" alt="">
+                                <div class="comment-name">
+                                    Марина Игнатова
+                                </div>
+                                <span class="rcity"></span>
+                            </div>
+                            <div class="comment-bottom">
+                                Хороший врач, прям Доктор Хаус! Надо запомнить название, летом в деревню отвезу, там вечно у стариков проблемы<br>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment-text">
+                            <div class="comment-top">
+                                <img class="comment-image" src="images/12_00100-aac-arb.jpg" alt="">
+                                <div class="comment-name">
+                                    Дарья Ястребкова
+                                </div>
+                                <span class="rcity"></span>
+                            </div>
+                            <div class="comment-bottom">
+                                Я эти капсулы вместо витаминов пью. Они и самочувствие улучшают и в целом голова как-то лучше работает))<br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment-text">
+                            <div class="comment-top">
+                                <img class="comment-image" src="images/16_00100-85d-arb.jpg" alt="">
+                                <div class="comment-name">
+                                    Игнатов Михаил
+                                </div>
+                                <span class="rcity"></span>
+                            </div>
+                            <div class="comment-bottom">
+                                Если средство такое хорошее, как о нем пишут, это будет спасение. Гипертония много лет, а на лекарства почти на все аллергия.<br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment-text">
+                            <div class="comment-top">
+                                <img class="comment-image" style="border-radius: 50%" src="images/vrach.png" alt="">
+                                <div class="comment-name">
+                                    Ольга Викторовна
+                                </div>
+                            </div>
+                            <div class="comment-bottom">
+                                Напоминаю еще раз, что «GiperoPlus» можно только через официальную онлайн-форму, которая находится выше!
+Остерегайтесь, пожалуйста, подделок.<br> С уважением, Ольга Викторовна.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="down-box"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+
+
+</body>
+</html>
