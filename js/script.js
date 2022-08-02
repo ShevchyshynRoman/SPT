@@ -624,8 +624,8 @@ $(document).ready(function() {
     if (tel.length !== 13) {
       $('#phone').after('<span class="error-phone">Номер должен начинаться +38 и длина номера 13</span>');
     } else if (tel.startsWith('+38')) {
-      
-      alert('Submited')
+      alert('Submited');
+      $('#order-form')[0].reset();
     }
   });
 });
